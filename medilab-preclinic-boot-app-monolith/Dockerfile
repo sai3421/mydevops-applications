@@ -1,4 +1,4 @@
-FROM java:8
+FROM openjdk:8
 RUN mkdir /opt/medilab-preclinic
 WORKDIR  /opt/medilab-preclinic
 COPY medilab-morning-preclinic.war /opt/medilab-preclinic/
