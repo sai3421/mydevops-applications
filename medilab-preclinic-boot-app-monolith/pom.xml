@@ -70,16 +70,5 @@
 			</plugin>
 		</plugins> 
 	</build>
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-20-142.us-east-2.compute.internal-releases</name>
-        <url>http://18.218.77.182:8081/artifactory/medi-lab-repo</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-20-142.us-east-2.compute.internal-snapshots</name>
-        <url>http://18.218.77.182:8081/artifactory/medi-lab-repo</url>
-    </snapshotRepository>
-</distributionManagement>
+
 </project>
