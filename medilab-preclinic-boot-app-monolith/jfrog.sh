@@ -1,4 +1,4 @@
-server=http://18.217.176.126:8081/artifactory
+server=http://3.23.105.92:8081/artifactory
 repo=libs-snapshot-local
 
 userName=admin
@@ -22,7 +22,6 @@ echo $artifact_name
 url=$path/$artifact_name
 
 # Download
-echo "!!!!!!!!!!!!!!!!"
 echo $url
 wget  --user=$userName --password=$password $url
 mv $artifact_name medilab-morning-preclinic.war
